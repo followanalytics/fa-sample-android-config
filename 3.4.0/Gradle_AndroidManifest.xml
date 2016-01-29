@@ -3,6 +3,10 @@
     package="{MY_PACKAGE}" >
 
 
+    <!-- FA  Permission for geofencing-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
     <permission
             android:name="{MY_PACKAGE}.permission.C2D_MESSAGE"
             android:protectionLevel="signature" />
